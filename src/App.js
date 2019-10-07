@@ -1,10 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Header from './components/header';
 import Content from './components/content';
-import Footer from './components/footer';
-import {Button} from 'react-bootstrap';
 import {Navbar,Nav} from 'react-bootstrap';
 import {BrowserRouter as Router,Switch,Route,Link } from 'react-router-dom';
 import Create from './components/create';
